@@ -8,7 +8,7 @@
 /* appearance */
 static const unsigned int borderpx    = 3;        /* border pixel of windows */
 static const unsigned int snap        = 32;       /* snap pixel */
-static const unsigned int gappx       = 4;        /* pixel gap between clients */
+static const unsigned int gappx       = 1;        /* pixel gap between clients */
 static const int showbar              = 1;        /* 0 means no bar */
 static const int topbar               = 1;        /* 0 means bottom bar */
 static const int horizpadbar          = 2;        /* horizontal padding for statusbar */
@@ -47,7 +47,7 @@ static const unsigned int alphas[][3] = {
 
 /* tagging */
 /* static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }; */
-static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
 
 
 static const Rule rules[] = {
@@ -57,7 +57,6 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "package",     NULL,       NULL,       8,            1,           0 },
-	{ "qutebrowser",     NULL,       NULL,       1,            0,           0 },
 };
 
 /* layout(s) */
